@@ -11,7 +11,7 @@ def count(S,m,n):
             table[i][j] = x + y
     return table[n][m-1]
 
-arr = [1,2,3]
+arr = [1,2,3,4]
 m = len(arr)
 n = 4
 print(count(arr,m,n))   
